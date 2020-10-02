@@ -100,19 +100,19 @@ ___
 ## Ventajas del MVC
 
 
-•	Fácil organización del código en componentes diferentes.
-•	Adaptación a frameworks actuales.
-•	Evitar en la medida de lo posible bugs.
-•	Fácil escalabilidad.
-•	Facilidad de trabajar en equipo.
-•	Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
-•	Sencillez para crear distintas representaciones de los mismos datos.
-•	Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
-•	Reutilización de los componentes.
-•	No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
+-	Fácil organización del código en componentes diferentes.
+-	Adaptación a frameworks actuales.
+-	Evitar en la medida de lo posible bugs.
+-	Fácil escalabilidad.
+-	Facilidad de trabajar en equipo.
+-	Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
+-	Sencillez para crear distintas representaciones de los mismos datos.
+-	Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
+-	Reutilización de los componentes.
+-	No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
 ___
 <a name="alternativas"></a>
-##Alternativas a MVC
+## Alternativas a MVC
 Hay otras alternativas de modelos como son el MVP y el MVVM
 ###### MVP – Modelo Vista Presentador
 
@@ -121,10 +121,10 @@ El modelo puede notificar a la vista que han llegado nuevos datos, y la vista pu
 ![](https://ingsoftwarei2014.files.wordpress.com/2014/06/9j5wl.png?w=390&h=84)
 
 MVP se ve muy similar a MVC, salvo algunas diferencias clave:
-•	La entrada comienza con la vista, no el presentador.
-•	Existe una correspondencia uno-a-uno entre la vista y el presentador asociado.
-•	La vista contiene una referencia al presentador. El presentador también está reaccionando a los acontecimientos que se ejecutará desde la vista, por lo que su conocimiento de la Vista su asociada con.
-•	El presentador actualiza la vista sobre la base de las medidas solicitadas que realiza en el modelo, pero la vista no es el modelo de conciencia.
+- La entrada comienza con la vista, no el presentador.
+- Existe una correspondencia uno-a-uno entre la vista y el presentador asociado.
+- La vista contiene una referencia al presentador. El presentador también está reaccionando a los acontecimientos que se ejecutará desde la vista, por lo que su conocimiento de la Vista su asociada con.
+- El presentador actualiza la vista sobre la base de las medidas solicitadas que realiza en el modelo, pero la vista no es el modelo de conciencia.
 
 ###### MV-VM – Model View View Modelo
 La idea del MV-VM surge en torno a la arquitectura de las interfaces de usuario donde la vista es la responsable del diseñador en lugar del desarrollador y por ende no debe contender ningún código. Al igual que el mvc, la vista puede ligarse a los datos y presentar actualizaciones, pero esta vez sin código. De esta forma, la vista está bajo el control del diseñador, pero puede actualizar su estado por medio de las clases de dominio usando el mecanismo de enlace de datos.
@@ -134,13 +134,13 @@ Entrando en contexto entre los patrones MVC y MVP, vamos a ver el patrón
 ![](https://ingsoftwarei2014.files.wordpress.com/2014/06/riemj.png?w=328&h=148)
 
 MVVM con sus diferencias:
-•	La entrada comienza con la vista, no el Modelo Vista.
-•	Mientras que la vista contiene una referencia a la vista de modelo, el Modelo Vista no tiene información sobre la Vista.
-•	También te darás cuenta de que la vista no tiene ninguna idea sobre el modelo en el patrón MVVM. Esto se debe a que, hasta donde la vista se sabe, su “modelo” es la vista de modelo (de ahí su nombre). Debido a la forma de enlace de datos y otras características como comandante trabajo en WPF y Silverlight, hay una rica comunicación entre la vista y el modelo de vista, el aislamiento de la Vista de tener que saber nada acerca de lo que realmente está sucediendo detrás de las escenas.
-•	Hace la vista fácilmente reutilizables mediante la abstracción de la lógica común
-•	Elimina la dependencia en el modelo de la vista
-•	Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
-•	Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
+- La entrada comienza con la vista, no el Modelo Vista.
+- Mientras que la vista contiene una referencia a la vista de modelo, el Modelo Vista no tiene información sobre la Vista.
+- También te darás cuenta de que la vista no tiene ninguna idea sobre el modelo en el patrón MVVM. Esto se debe a que, hasta donde la vista se sabe, su “modelo” es la vista de modelo (de ahí su nombre). Debido a la forma de enlace de datos y otras características como comandante trabajo en WPF y Silverlight, hay una rica comunicación entre la vista y el modelo de vista, el aislamiento de la Vista de tener que saber nada acerca de lo que realmente está sucediendo detrás de las escenas.
+- Hace la vista fácilmente reutilizables mediante la abstracción de la lógica común
+- Elimina la dependencia en el modelo de la vista
+- Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
+- Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
 ___
 <a name="conclusion"></a>
 ## Conclusión
