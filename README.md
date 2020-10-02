@@ -57,22 +57,22 @@ El tener patrones de diseño y conocer las estructuras que los programadores emp
 ___
 <a name="model"></a>
 #### Modelo
-•	Representa los datos y operaciones sobre ellos
-•	Accede a la capa de almacenamiento de datos
-•	Define las reglas de negocio
-•	Lleva un registro de las vistas y controladores del sistema
-•	Si estamos ante un modelo activo, notificará a las vistas los cambios que en los datos pueda producir un agente externo
+- Representa los datos y operaciones sobre ellos
+- Accede a la capa de almacenamiento de datos
+- Define las reglas de negocio
+- Lleva un registro de las vistas y controladores del sistema
+- Si estamos ante un modelo activo, notificará a las vistas los cambios que en los datos pueda producir un agente externo
 <a name="view"></a>
 #### Vista
-•	Es la representación visual del modelo
-•	Recibe datos del modelo y los muestra al usuario
-•	Tiene un registro de su controlador asociado
-•	Cuando es un modelo activo que informa de los cambios en los datos producidos por otros agentes, da el servicio de actualización, para que sea invocado por el controlador o por el modelo
+- Es la representación visual del modelo
+- Recibe datos del modelo y los muestra al usuario
+- Tiene un registro de su controlador asociado
+- Cuando es un modelo activo que informa de los cambios en los datos producidos por otros agentes, da el servicio de actualización, para que sea invocado por el controlador o por el modelo
 <a name="controler"></a>
-####Controlador
-•	Se encarga de ser intermediario entre el modelo y la vista, y coordinar la ejecución
-•	Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc.)
-•	Contiene reglas de gestión de eventos, estas acciones pueden suponer peticiones al modelo o a las vistas
+#### Controlador
+- Se encarga de ser intermediario entre el modelo y la vista, y coordinar la ejecución
+- Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc.)
+- Contiene reglas de gestión de eventos, estas acciones pueden suponer peticiones al modelo o a las vistas
 ___
 <a name="frameworks"></a>
 ## Frameworks
