@@ -70,7 +70,7 @@ ___
 -	Tiene un registro de su controlador asociado
 -	Cuando es un modelo activo que informa de los cambios en los datos producidos por otros agentes, da el servicio de actualización, para que sea invocado por el controlador o por el modelo
 <a name="controler"></a>
-####Controlador
+#### Controlador
 --Se encarga de ser intermediario entre el modelo y la vista, y coordinar la ejecución
 --Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc.)
 --Contiene reglas de gestión de eventos, estas acciones pueden suponer peticiones al modelo o a las vistas
@@ -112,16 +112,16 @@ ___
 ## Ventajas del MVC
 
 
--	Fácil organización del código en componentes diferentes.
--	Adaptación a frameworks actuales.
--	Evitar en la medida de lo posible bugs.
--	Fácil escalabilidad.
--	Facilidad de trabajar en equipo.
--	Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
--	Sencillez para crear distintas representaciones de los mismos datos.
--	Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
--	Reutilización de los componentes.
--	No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
+- Fácil organización del código en componentes diferentes.
+- Adaptación a frameworks actuales.
+- Evitar en la medida de lo posible bugs.
+- Fácil escalabilidad.
+- Facilidad de trabajar en equipo.
+- Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
+- Sencillez para crear distintas representaciones de los mismos datos.
+- Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
+- Reutilización de los componentes.
+- No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
 ___
 <a name="alternativas"></a>
 ## Alternativas a MVC
