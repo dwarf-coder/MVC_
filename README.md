@@ -124,7 +124,7 @@ ___
 -	No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
 ___
 <a name="alternativas"></a>
-##Alternativas a MVC
+## Alternativas a MVC
 Hay otras alternativas de modelos como son el MVP y el MVVM
 ###### MVP – Modelo Vista Presentador
 
@@ -135,7 +135,7 @@ El modelo puede notificar a la vista que han llegado nuevos datos, y la vista pu
 MVP se ve muy similar a MVC, salvo algunas diferencias clave:
 -	La entrada comienza con la vista, no el presentador.
 -	Existe una correspondencia uno-a-uno entre la vista y el presentador asociado.
--	La vista contiene una referencia al presentador. El presentador también está reaccionando a los acontecimientos que se ejecutará desde la vista, por lo que su conocimiento de la Vista su asociada con.
+-	La vista contiene una referencia al presentador. El presentador también está reaccionando a los acontecimientos que se ejecutará desde la vista, por lo que su    conocimiento de la Vista su asociada con.
 -	El presentador actualiza la vista sobre la base de las medidas solicitadas que realiza en el modelo, pero la vista no es el modelo de conciencia.
 
 ###### MV-VM – Model View View Modelo
