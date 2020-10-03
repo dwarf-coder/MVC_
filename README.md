@@ -71,9 +71,9 @@ ___
 -	Cuando es un modelo activo que informa de los cambios en los datos producidos por otros agentes, da el servicio de actualización, para que sea invocado por el controlador o por el modelo
 <a name="controler"></a>
 #### Controlador
---Se encarga de ser intermediario entre el modelo y la vista, y coordinar la ejecución
---Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc.)
---Contiene reglas de gestión de eventos, estas acciones pueden suponer peticiones al modelo o a las vistas
+- Se encarga de ser intermediario entre el modelo y la vista, y coordinar la ejecución
+- Recibe los eventos de entrada (un clic, un cambio en un campo de texto, etc.)
+- Contiene reglas de gestión de eventos, estas acciones pueden suponer peticiones al modelo o a las vistas
 ___
 <a name="frameworks"></a>
 ## Frameworks
@@ -146,13 +146,13 @@ Entrando en contexto entre los patrones MVC y MVP, vamos a ver el patrón
 ![](https://ingsoftwarei2014.files.wordpress.com/2014/06/riemj.png?w=328&h=148)
 
 MVVM con sus diferencias:
-•	La entrada comienza con la vista, no el Modelo Vista.
-•	Mientras que la vista contiene una referencia a la vista de modelo, el Modelo Vista no tiene información sobre la Vista.
-•	También te darás cuenta de que la vista no tiene ninguna idea sobre el modelo en el patrón MVVM. Esto se debe a que, hasta donde la vista se sabe, su “modelo” es la vista de modelo (de ahí su nombre). Debido a la forma de enlace de datos y otras características como comandante trabajo en WPF y Silverlight, hay una rica comunicación entre la vista y el modelo de vista, el aislamiento de la Vista de tener que saber nada acerca de lo que realmente está sucediendo detrás de las escenas.
-•	Hace la vista fácilmente reutilizables mediante la abstracción de la lógica común
-•	Elimina la dependencia en el modelo de la vista
-•	Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
-•	Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
+- La entrada comienza con la vista, no el Modelo Vista.
+- Mientras que la vista contiene una referencia a la vista de modelo, el Modelo Vista no tiene información sobre la Vista.
+- También te darás cuenta de que la vista no tiene ninguna idea sobre el modelo en el patrón MVVM. Esto se debe a que, hasta donde la vista se sabe, su “modelo” es la vista de modelo (de ahí su nombre). Debido a la forma de enlace de datos y otras características como comandante trabajo en WPF y Silverlight, hay una rica comunicación entre la vista y el modelo de vista, el aislamiento de la Vista de tener que saber nada acerca de lo que realmente está sucediendo detrás de las escenas.
+- Hace la vista fácilmente reutilizables mediante la abstracción de la lógica común
+- Elimina la dependencia en el modelo de la vista
+- Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
+- Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
 ___
 
 <a name="ejemplos"></a>
