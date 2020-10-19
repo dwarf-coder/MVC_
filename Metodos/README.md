@@ -2,7 +2,7 @@
 
 
 - [Introducción](#Introduccion)
-- [Marco teorico](#Marco teorico)
+- [Marco teorico](#Marco)
 - [Metodos](#Metodos)
 	- [Get](#Get)
 	- [Head](#Head)
@@ -29,7 +29,7 @@ Este documento tiene la finalidad de representar de manera concreta y lo mas cla
 
 
 
-<a name="Marco teorico"></a>
+<a name="Marco"></a>
 ## Marco teorico
 Para ahondar en el tema de los conceptos referentes a HTTP (Hypertext Transfer Protocol), debemos partit de lo singular.  - ¿Que es HTPP?, segun el sitio ** [MDN Docs](https://developer.mozilla.org/)** una definicion general es:
 
