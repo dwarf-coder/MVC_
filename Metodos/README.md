@@ -1,7 +1,7 @@
 
 
 - [Introducción](#Introduccion)
-- [Marco teorico](#Marco Teorico)
+- [Marco teorico](#Marco teorico)
 - [Metodos](#Metodos)
 	- [Get](#Get)
 	- [Head](#Head)
@@ -45,7 +45,7 @@ HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de u
 ## Metodos
 
 <a name="Get"></a>
-####GET
+#### GET
 
 El método GET  solicita una representación de un recurso específico. Las peticiones que usan el método GET sólo deben recuperar datos.
 
@@ -70,7 +70,7 @@ DOCTYPE html>
 
 
 <a name="Head"></a>
-####HEAD
+#### HEAD
 
 El método HEAD pide una respuesta idéntica a la de una petición GET, pero sin el cuerpo de la respuesta.
 Es idéntido a GET, pero el servidor no devuelve el contenido en el HTTP response. Cuando se envía un HEAD request, significa que sólo se está interesado en el código de respuesta y los headers HTTP, no en el propio documento. Con este método el navegador puede comprobar si un documento se ha modificado, por razones de caching. Puede comprobar también directamente si el archivo existe.
@@ -87,7 +87,7 @@ En el encabezado que el servidor le envía de respuesta, el cliente encuentra lo
 ![](https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2020/screenshot-of-a-http-response-to-the-request-head.png)
 
 <a name="Post"></a>
-####POST
+#### POST
 
 El método POST se utiliza para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor.
 
@@ -118,7 +118,7 @@ Aunque se puedan enviar datos a través del método GET, en muchos casos se util
 ![](https://www.abrirllave.com/html/images/metodo-post-en-atributo-method.gif)
 
 <a name="Patch"></a>
-####PATCH
+#### PATCH
 
 El método PATCH  es utilizado para aplicar modificaciones parciales a un recurso.
 El método HTTP PUT únicamente permite reemplazar completamente un documento. A diferencia de PUT, el método PATCH no es idempotente, esto quiere decir que peticiones identicas sucesivas pueden tener efectos diferentes. Sin embargo,  es posible emitir peticiones PATCH de tal forma que sean idempotentes.
@@ -144,7 +144,7 @@ ETag: "e0023aa4f"
 ```
 
 <a name="Put"></a>
-####PUT
+#### PUT
 
 El modo PUT reemplaza todas las representaciones actuales del recurso de destino con la carga útil de la petición.
 
@@ -168,7 +168,7 @@ Content-Location: /nuevo.html
 ```
 
 <a name="Delete"></a>
-####DELETE
+#### DELETE
 El método DELETE borra un recurso en específico.
 
 Simplemente elimina un resource identificado en la URI. Si se elimina correctamente devuelve 200 junto con un body response, o 204 sin body. DELETE, al igual que PUT y GET, también es idempotente.
@@ -195,7 +195,7 @@ Date: Wed, 21 Oct 2015 07:28:00 GMT
 
 <a name="Options"></a>
 
-####OPTIONS
+#### OPTIONS
 
 El método OPTIONS es utilizado para describir las opciones de comunicación para el recurso de destino.
 
